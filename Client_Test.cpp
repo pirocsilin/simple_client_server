@@ -87,7 +87,7 @@ void ServerRead(SOCKET serverSocket) {
    затем клиент в бесконечном цикле может отправлять сообщения на сервер. Все сообщения пишутся в БД*/
 int main() {
 
-    cout << "\t>> SERVER <<\n" << endl;
+    cout << "\n\t>> CLIENT <<\n" << endl;
 
     WSAData wsaData;
     WORD Version = MAKEWORD(2, 1);              

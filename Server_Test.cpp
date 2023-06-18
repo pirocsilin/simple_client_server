@@ -145,7 +145,7 @@ void ServerWrite() {
    отправки клиенту сообщения. В данной системе, id клиента - это номер "его" сокета на стороне сервера */
 int main(){
     
-    cout << "\t>> SERVER <<\n" << endl;
+    cout << "\n\t>> SERVER <<\n" << endl;
     
     WSAData wsaData;
     WORD Version = MAKEWORD(2, 1);              // Запрашиваем версию библиотеки winsock
